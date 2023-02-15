@@ -1,0 +1,77 @@
+// MongoDB Playground
+// To disable this template go to Settings | MongoDB | Use Default Template For Playground.
+// Make sure you are connected to enable completions and to be able to run a playground.
+// Use Ctrl+Space inside a snippet or a string literal to trigger completions.
+
+// Select the database to use.
+use('myFirstDatabase');
+
+// db.createCollection('test');
+
+// db.drop('test');
+
+// db.test.insertOne({
+//     name: 'John Doe',
+//     age:18,
+// });
+
+// db.test.insertMany([
+//     {
+//         name: 'John Smith',
+//         age:29,
+//     },
+//     {
+//         name: 'John Tree',
+//         age:32,
+//     },
+// ]);
+
+// db.test.find();
+
+// db.test.find({
+//     age: 29,
+// });
+
+// db.test.find({
+//     name: "John Tree",
+//     age: 32,
+// });
+
+// db.test.find({$or[{name: "John Tree"}, {age: 18}]});
+
+// db.test.find({age:{$lt:29}}); // less than -> lt
+// db.test.find({age:{$lte:29}}); // less than or equal to -> lte
+
+// db.test.find({age:{$gt:29}}); // greater than -> gt
+// db.test.find({age:{$gte:29}}); // greater than or equal to -> gte
+
+// db.test.find({age:{$ne:29}}); // not equal -> ne
+
+// db.test.find().sort({age:1}); // ascending -> 0...n / a...z
+// db.test.find().sort({age:-1}); // descending -> n...0 / z...a
+
+// db.test.find().limit(1);
+
+// db.test.findOne({age:18});
+
+// One document will be updated.
+// db.test.updateOne({
+//     name: "John Tree",
+// }, {
+//     $set: {
+//         name: "Jack Tree",
+//         age: 35,
+//     },
+// });
+
+// All the documents that match the query will be updated.
+// db.test.updateMany({
+// }, {
+//     $rename: {
+//         name: "fullName",
+//     },
+// });
+
+// db.test.deleteOne({
+//     age: 35,
+// });
